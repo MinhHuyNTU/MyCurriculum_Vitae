@@ -1,2 +1,2 @@
-# MyCurriculum_Vitae
+# My_CurriculumVitae
 CV look like facebook
