@@ -1,2 +1,2 @@
-# My_CurriculumVitae.github.io
-CV look like facebook
+# MinhHuyNTU.github.io/mycv
+CV làm giống facebook của anh Zuck
