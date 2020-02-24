@@ -1,0 +1,7 @@
+https://frontend.tikicdn.com/_new-next/static/img/footer/fb.svg
+https://frontend.tikicdn.com/_new-next/static/img/footer/youtube.svg
+https://frontend.tikicdn.com/_new-next/static/img/footer/mastercard.svg
+
+https://frontend.tikicdn.com/_new-next/static/img/icons/bookcare.svg
+
+https://frontend.tikicdn.com/_new-next/static/img/icons/review-2.svg (notes)
