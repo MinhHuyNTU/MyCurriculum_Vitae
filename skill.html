@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<!-- saved from url=(0023)edge://settings/privacy -->
-<html dir="ltr" lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
-  <title>Profile Intro</title>
-  <!-- Enable error reporting
+<!-- saved from url=(0020)edge://settings/help -->
+<html dir="ltr" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Settings</title>
+  <!-- Enable error reporting -->
   <script src="edge://settings/base-error-reporting.js"></script>
   <script src="edge://settings/settings-error-reporting.js"></script>
   <script src="edge://resources/js/assert.js"></script>
@@ -22,8 +20,6 @@
   <script src="edge://settings/cookie_info.js"></script>
   <script src="edge://settings/focus-visible.min.js"></script>
   <script src="edge://settings/strings.js"></script>
-  -->
-  <!-- region CSS -->
   <style>
   body {
     font-family: "system-ui", sans-serif;
@@ -62,1821 +58,238 @@
       position: fixed;
     }
   </style>
-<style data-jss="" data-meta="$r">
-.c01396 {
-  max-width: 820px;
-  min-width: 250px;
-}
-</style><style data-jss="" data-meta="co">
-.c01394 {
-  max-width: 820px;
-  min-width: 250px;
-}
-.c01395 {
-  padding-bottom: 20px;
-}
-</style>
-  <style data-jss="" data-meta="no">
-.c01392 {
-  max-width: 820px;
-  min-width: 250px;
-}
-.c01393 {
-  margin-top: 10px;
-}
-</style>
-  <style data-jss="" data-meta="MSFTToggle">
-.c01383 {
-  display: inline-block;
-  transition: all 0.2s ease-in-out;
-  color: #262626;
-}
-@media (-ms-high-contrast:active) {
-  .c01383 {
-    -ms-high-contrast-adjust: none;
-  }
-}
-.c01384 {
-  clear: both;
-  cursor: pointer;
-  display: block;
-  padding-bottom: 7px;
-  font-size: 14px;
-  line-height: 20px;
-}
-.c01385 {
-  cursor: pointer;
-  position: relative;
-  margin-top: 0;
-  float: left;
-}
-.c01386 {
-  position: absolute;
-  transition: all .1s ease;
-  pointer-events: none;
-  top: 5px;
-  left: 5px;
-  right: unset;
-  border-radius: 10px;
-  width: 10px;
-  height: 10px;
-  background: #262626;
-}
-.c01387 {
-  cursor: pointer;
-  margin: 0;
-  display: block;
-  outline: none;
-  position: relative;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 40px;
-  height: 20px;
-  background: #F7F7F7;
-  border: 1px solid #B6B6B6;
-  border-radius: 20px;
-}
-.c01387:active {
-  background: #F7F7F7;
-  border-color: #CECECE;
-}
-.c01387:hover {
-  background: #F7F7F7;
-  border-color: #909090;
-}
-.c01387:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01387:focus, .js-focus-visible .c01387.focus-visible, .js-focus-visible [data-focus-visible-added].c01387 {
-  box-shadow: 0 0 0 1px #838383 inset;
-  border-color: #838383;
-}
-@media (-ms-high-contrast:active) {
-  .c01387 {
-    background: Window;
-    border-color: ButtonText;
-  }
-  .c01387 + span {
-    background: ButtonText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01387:focus, .js-focus-visible .c01387.focus-visible, .js-focus-visible [data-focus-visible-added].c01387 {
-    border-color: ButtonText;
-    box-shadow: 0 0 0 1px ButtonText inset;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01387:hover {
-    background: Window;
-    border-color: Highlight;
-  }
-  .c01387:hover + span {
-    background: Highlight;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01387:active {
-    background: Highlight;
-    border-color: HighlightText;
-  }
-  .c01387:active + span {
-    background: HighlightText;
-  }
-}
-.c01388 {
-}
-.c01388 .c01387 {
-  background: #0078D4;
-  border-color: #0078D4;
-}
-.c01388 .c01386 {
-  left: 25px;
-  right: unset;
-  background: #FFFFFF;
-}
-.c01388 .c01387:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01388 .c01387:focus, .js-focus-visible .c01388 .c01387.focus-visible, .js-focus-visible [data-focus-visible-added].c01388 .c01387 {
-  box-shadow: 0 0 0 1px #838383 inset, 0 0 0 3px #F2F8FD inset;
-  border-color: #838383;
-}
-.c01388 .c01387:disabled {
-}
-.c01388 .c01387:hover {
-}
-.c01388 .c01387:active {
-}
-@media (-ms-high-contrast:active) {
-  .c01388 .c01387 {
-    background: Highlight;
-    border-color: Highlight;
-  }
-  .c01388 .c01387 + span {
-    background: HighlightText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01388 .c01387:active {
-    background: Highlight !important;
-    border-color: Highlight !important;
-  }
-  .c01388 .c01387:active + span {
-    background: HighlightText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01388 .c01387:hover {
-    background: HighlightText;
-    border-color: Highlight;
-  }
-  .c01388 .c01387:hover + span {
-    background: Highlight;
-  }
-}
-.c01388 .c01387:disabled .c01387, .c01388 .c01387:disabled .c01384, .c01388 .c01387:disabled .c01390 {
-}
-@media (-ms-high-contrast:active) {
-  .c01388 .c01387:disabled .c01387, .c01388 .c01387:disabled .c01384, .c01388 .c01387:disabled .c01390 {
-    color: GrayText !important;
-    background: transparent;
-    border-color: GrayText !important;
-  }
-  .c01388 .c01387:disabled .c01387 + span, .c01388 .c01387:disabled .c01384 + span, .c01388 .c01387:disabled .c01390 + span {
-    background: GrayText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01388 .c01387:focus, .js-focus-visible .c01388 .c01387.focus-visible, .js-focus-visible [data-focus-visible-added].c01388 .c01387 {
-    border-color: ButtonText !important;
-    box-shadow: 0 0 0 2px inset ButtonFace;
-  }
-}
-.c01389 {
-  cursor: not-allowed !important;
-  opacity: 0.3;
-}
-@media (-ms-high-contrast:active) {
-  .c01389 {
-    color: GrayText;
-    opacity: 1;
-  }
-}
-.c01389 .c01387, .c01389 .c01384, .c01389 .c01390 {
-  cursor: not-allowed !important;
-}
-@media (-ms-high-contrast:active) {
-  .c01389 .c01387, .c01389 .c01384, .c01389 .c01390 {
-    color: GrayText !important;
-    background: transparent;
-    border-color: GrayText !important;
-  }
-  .c01389 .c01387 + span, .c01389 .c01384 + span, .c01389 .c01390 + span {
-    background: GrayText !important;
-  }
-}
-.c01390 {
-  margin-top: 0;
-  user-select: none;
-  padding-bottom: 0;
-  font-size: 14px;
-  line-height: 20px;
-  float: left;
-  padding-left: 5px;
-}
-@media (-ms-high-contrast:active) {
-  .c01390 {
-    fill: WindowText !important;
-    color: WindowText !important;
-  }
-}
-</style><style data-jss="" data-meta="MSFTToggle - jssStyleSheet">
-.c01391 {
-  margin-top: 10px;
-}
-</style><style data-jss="" data-meta="Vn">
-.c01381 {
-  max-width: 820px;
-  min-width: 250px;
-}
-.c01382 {
-  margin-top: 10px;
-}
-</style><style data-jss="" data-meta="An">
-.c01378 {
-  max-width: 820px;
-  min-width: 250px;
-}
-.c01379 {
-}
-</style><style data-jss="" data-meta="MSFTButtonBase">
-.c01371 {
-  position: relative;
-}
-.c01371::before {
-  width: 100%;
-  bottom: -3px;
-  content: '';
-  display: block;
-  position: absolute;
-  height: 1px;
-  left: 0;
-}
-.c01371 svg {
-  width: 16px;
-  height: 16px;
-}
-.c01372 {
-  cursor: not-allowed !important;
-  opacity: 0.3;
-}
-@media (-ms-high-contrast:active) {
-  .c01372 {
-    color: GrayText;
-    opacity: 1;
-  }
-}
-.c01373 {
-  width: 16px;
-  height: 16px;
-}
-.c01374 {
-  width: 16px;
-  height: 16px;
-}
-.c01375 {
-}
-.c01375 .c01373 {
-  margin-right: 12px;
-}
-.c01375 .c01374 {
-  margin-left: 12px;
-}
-.c01376 {
-  cursor: pointer;
-  display: inline-flex;
-  overflow: hidden;
-  max-width: 374px;
-  box-sizing: border-box;
-  transition: all 0.1s ease-in-out;
-  line-height: 1;
-  font-family: inherit;
-  align-items: center;
-  white-space: nowrap;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 14px;
-  border: 2px solid transparent;
-  border-radius: 2px;
-  min-width: 32px;
-  padding: 0 10px;
-  height: 32px;
-  color: #2B2B2B;
-  fill: #2B2B2B;
-  background: #FFFFFF;
-}
-.c01376::-moz-focus-inner {
-  border: 0;
-}
-.c01376:hover:enabled, a.c01376:not(.c01372):hover {
-  background-color: #F2F2F2;
-}
-.c01376:active:enabled, a.c01376:not(.c01372):active {
-  background-color: #F7F7F7;
-}
-.c01376:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01376:focus, .js-focus-visible .c01376.focus-visible, .js-focus-visible [data-focus-visible-added].c01376 {
-  border-color: #888888;
-}
-.c01376:disabled {
-}
-@media (-ms-high-contrast:active) {
-  .c01376 {
-    fill: ButtonText;
-    color: ButtonText;
-    border: none;
-    background: ButtonFace;
-    -ms-high-contrast-adjust: none;
-  }
-}
-a.c01376:not(.c01372) {
-}
-@media (-ms-high-contrast:active) {
-  a.c01376:not(.c01372) {
-    fill: LinkText !important;
-    color: LinkText !important;
-    background: Window;
-    border-color: LinkText !important;
-  }
-}
-a.c01376:not(.c01372):not(.c01372):hover {
-}
-a.c01376:not(.c01372).c01372 {
-}
-@media (-ms-high-contrast:active) {
-  a.c01376:not(.c01372).c01372 {
-    fill: GrayText !important;
-    color: GrayText !important;
-    opacity: 1;
-    background: ButtonFace !important;
-    border-color: GrayText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  a.c01376:not(.c01372):not(.c01372):hover {
-    background: ButtonFace;
-    box-shadow: 0 0 0 1px inset LinkText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01376:disabled {
-    fill: GrayText !important;
-    color: GrayText !important;
-    opacity: 1;
-    background: ButtonFace !important;
-    border-color: GrayText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01376:focus, .js-focus-visible .c01376.focus-visible, .js-focus-visible [data-focus-visible-added].c01376 {
-    border-color: ButtonText;
-    box-shadow: 0 0 0 1px inset ButtonText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01376:hover:enabled, a.c01376:not(.c01372):hover {
-    fill: HighlightText;
-    color: HighlightText;
-    background: Highlight;
-  }
-}
-</style><style data-jss="" data-meta="MSFTButtonBase - jssStyleSheet">
-.c01377 {
-  width: 36px;
-  height: 36px;
-  margin: 0;
-  cursor: pointer;
-  padding: 0;
-  min-width: 36px;
-  max-width: unset;
-  transition: none;
-  background: transparent;
-  margin-top: 2px;
-}
-.c01377:hover:not([disabled]) {
-}
-.c01377 > * {
-  display: flex !important;
-}
-.c01377:disabled {
-}
-@media (-ms-high-contrast:active) {
-  .c01377 {
-    fill: ButtonText;
-    forced-color-adjust: none;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01377:disabled {
-    fill: GrayText;
-    forced-color-adjust: none;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01377:hover:not([disabled]) {
-    fill: HighlightText !important;
-    background: Highlight;
-    forced-color-adjust: none;
-  }
-}
-</style><style data-jss="" data-meta="BaseTypography">
-.c01361 {
-  margin-top: 0;
-  transition: all 0.2s ease-in-out;
-  margin-bottom: 0;
-  color: #2B2B2B;
-}
-.c01362 {
-  font-size: 60px;
-  line-height: 72px;
-}
-.c01363 {
-  font-size: 46px;
-  line-height: 56px;
-}
-.c01364 {
-  font-size: 34px;
-  line-height: 44px;
-}
-.c01365 {
-  font-size: 28px;
-  line-height: 36px;
-}
-.c01366 {
-  font-size: 20px;
-  line-height: 28px;
-}
-.c01367 {
-  font-size: 16px;
-  line-height: 24px;
-}
-.c01368 {
-  font-size: 14px;
-  line-height: 20px;
-}
-.c01369 {
-  font-size: 12px;
-  line-height: 16px;
-}
-.c01370 {
-  font-size: 10px;
-  line-height: 16px;
-}
-</style><style data-jss="" data-meta="MSFTHeading">
-.c01353 {
-}
-.c01353.c01354, .c01353.c01355, .c01353.c01356, .c01353.c01357, .c01353.c01358, .c01353.c01359, .c01353.c01360 {
-  cursor: default;
-  font-weight: 600;
-}
-.c01354 {
-}
-.c01355 {
-}
-.c01356 {
-}
-.c01357 {
-}
-.c01358 {
-}
-.c01359 {
-}
-.c01360 {
-}
-</style><style data-jss="" data-meta="TrackingPreventionCard">
-.c01337 {
-  width: 100%;
-  cursor: pointer;
-  height: 100%;
-  display: flex;
-  overflow: hidden;
-  background: transparent;
-  box-sizing: border-box;
-  transition: all 0.1s ease-in-out;
-  flex-direction: column;
-  font-size: 14px;
-  line-height: 20px;
-  border-radius: 2px;
-  padding: 16px;
-}
-@media (-ms-high-contrast:active) {
-  .c01337 {
-    background: ButtonFace;
-    -ms-high-contrast-adjust: none;
-  }
-}
-.c01337 .c01342, .c01337 .c01338, .c01337 .c01340, .c01337 .c01345, .c01337 .c01347 {
-}
-@media (-ms-high-contrast:active) {
-  .c01337 .c01342, .c01337 .c01338, .c01337 .c01340, .c01337 .c01345, .c01337 .c01347 {
-    fill: ButtonText !important;
-    color: ButtonText !important;
-  }
-}
-.c01338 {
-  fill: #2B2B2B;
-}
-.c01339 {
-  display: flex;
-  grid-row: 1/2;
-  min-width: 16px;
-  min-height: 16px;
-  align-items: center;
-  grid-column: 1/2;
-}
-.c01340 {
-  white-space: nowrap;
-}
-.c01341 {
-  display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto 1fr;
-  color: #2B2B2B;
-  margin-bottom: 8px;
-}
-.c01342 {
-  align-self: flex-start;
-  fill: #2B2B2B;
-  margin-right: 12px;
-}
-.c01343 {
-  display: grid;
-  min-height: 44px;
-  margin-bottom: 2px;
-  grid-template-columns: auto 1fr;
-}
-.c01344 {
-  overflow: auto;
-  overflow-wrap: break-word;
-}
-.c01345 {
-}
-.c01346 {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.c01347 {
-  grid-row: 1/3;
-  align-self: center;
-  grid-column: 2/3;
-}
-.c01348 {
-  cursor: not-allowed !important;
-  opacity: 0.3;
-}
-@media (-ms-high-contrast:active) {
-  .c01348 {
-    color: GrayText;
-    opacity: 1;
-  }
-}
-.c01348 .c01342, .c01348 .c01338, .c01348 .c01340, .c01348 .c01345, .c01348 .c01347 {
-}
-@media (-ms-high-contrast:active) {
-  .c01348 .c01342, .c01348 .c01338, .c01348 .c01340, .c01348 .c01345, .c01348 .c01347 {
-    fill: GrayText !important;
-    color: GrayText !important;
-    opacity: 1;
-  }
-}
-</style><style data-jss="" data-meta="RadioContainer">
-.c01328 {
-  display: inline-flex;
-  position: relative;
-  min-width: 32px;
-  min-height: 32px;
-}
-@media (-ms-high-contrast:active) {
-  .c01328 {
-    fill: ButtonText;
-    color: ButtonText;
-    background: ButtonFace;
-    border-color: ButtonText;
-    -ms-high-contrast-adjust: none;
-  }
-}
-.c01329 {
-  width: 100%;
-  cursor: pointer;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  overflow: hidden;
-  position: absolute;
-  appearance: none;
-  background: transparent;
-  box-sizing: border-box;
-  transition: all 0.1s ease-in-out;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  border-radius: 2px;
-  border: 1px solid #BEBEBE;
-}
-.c01329:hover:enabled {
-  background: transparent;
-  border: 1px solid #979797;
-}
-.c01329:active:enabled {
-  background: transparent;
-  border: 1px solid #D6D6D6;
-}
-.c01329:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01329:focus, .js-focus-visible .c01329.focus-visible, .js-focus-visible [data-focus-visible-added].c01329 {
-  border-color: #888888;
-  box-shadow: inset 0 0 0 1px #888888;
-}
-@media (-ms-high-contrast:active) {
-  .c01329 {
-    border-color: ButtonText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01329:focus, .js-focus-visible .c01329.focus-visible, .js-focus-visible [data-focus-visible-added].c01329 {
-    border: 1px solid ButtonText;
-    box-shadow: inset 0 0 0 1px ButtonText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01329:hover:enabled {
-    border-color: Highlight;
-  }
-}
-.c01330 {
-}
-.c01330 .c01329 {
-  border-color: #0078D4;
-  box-shadow: inset 0 0 0 3px #0078D4;
-}
-.c01330 .c01329:hover:enabled {
-  border-color: #0066B4;
-  box-shadow: inset 0 0 0 3px #0066B4;
-}
-.c01330 .c01329:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01330 .c01329:focus, .js-focus-visible .c01330 .c01329.focus-visible, .js-focus-visible [data-focus-visible-added].c01330 .c01329 {
-  border-color: #888888;
-  box-shadow: inset 0 0 0 3px #888888;
-}
-@media (-ms-high-contrast:active) {
-  .c01330 .c01329 {
-    box-shadow: inset 0 0 0 3px Highlight;
-    border-color: Highlight;
-  }
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01330 .c01329:focus, .js-focus-visible .c01330 .c01329.focus-visible, .js-focus-visible [data-focus-visible-added].c01330 .c01329 {
-    border: 1px solid ButtonText;
-    box-shadow: inset 0 0 0 3px ButtonText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01330 .c01329:hover:enabled {
-    box-shadow: inset 0 0 0 3px Highlight;
-    border-color: Highlight;
-  }
-}
-.c01331 {
-  cursor: not-allowed !important;
-  opacity: 0.3;
-}
-@media (-ms-high-contrast:active) {
-  .c01331 {
-    color: GrayText;
-    opacity: 1;
-  }
-}
-.c01331 .c01329 {
-}
-@media (-ms-high-contrast:active) {
-  .c01331 .c01329 {
-    cursor: not-allowed !important;
-    opacity: 1;
-    border-color: GrayText;
-  }
-}
-.c01332 {
-}
-.c01333 {
-}
-</style><style data-jss="" data-meta="TrackingPreventionCard - jssStyleSheet">
-.c01349 {
-  margin-bottom: 4px;
-}
-.c01350 {
-  overflow: hidden;
-}
-.c01351 {
-  line-height: 12px;
-}
-.c01352 {
-  opacity: 1;
-}
-</style><style data-jss="" data-meta="le">
-.c01323 {
-  z-index: 7;
-  position: absolute;
-}
-.c01324 {
-  font-size: 12px;
-  line-height: 16px;
-  color: #767676;
-}
-@media (-ms-high-contrast:active) {
-  .c01324 {
-    color: HighlightText;
-    forced-color-adjust: none;
-  }
-}
-.c01325 {
-  padding: 4px 10px;
-  max-width: 500px;
-  min-width: 64px;
-  text-align: center;
-  align-items: center;
-  border-radius: 2px;
-  background-color: rgba(255, 235, 59, 0.9);
-}
-@media (-ms-high-contrast:active) {
-  .c01325 {
-    background-color: Highlight;
-    forced-color-adjust: none;
-  }
-}
-.c01325::after {
-  left: calc(50% - 5px);
-  width: 10px;
-  height: 10px;
-  content: "";
-  z-index: -1;
-  position: absolute;
-  background-color: rgba(255, 235, 59, 0.9);
-}
-@media (-ms-high-contrast:active) {
-  .c01325::after {
-    background-color: Highlight;
-    forced-color-adjust: none;
-  }
-}
-.c01326 {
-}
-.c01326::after {
-  top: auto;
-  bottom: -5px;
-  transform: rotate(-135deg);
-}
-.c01327 {
-}
-.c01327::after {
-  top: -5px;
-  bottom: 0px;
-  transform: rotate(-45deg);
-}
-</style><style data-jss="" data-meta="RadioContainer - jssStyleSheet">
-.c01334 {
-  align-items: stretch;
-  justify-content: start;
-}
-.c01335 {
-}
-.c01335 .c01336 {
-  box-shadow: 0px 0px 0px 3px inset#0072C9;
-}
-.c01336 {
-  border-radius: 4px;
-}
-.c01336:disabled {
-  cursor: not-allowed;
-}
-.c01336:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01336:focus, .js-focus-visible .c01336.focus-visible, .js-focus-visible [data-focus-visible-added].c01336 {
-  box-shadow: #838383 0px 0px 0px 3px inset;
-  border-color: #838383;
-}
-.c01336:hover:enabled {
-  border-width: 2px;
-}
-@media (-ms-high-contrast:active) {
-  .c01336:disabled {
-    border-color: GrayText;
-    forced-color-adjust: none;
-  }
-}
-</style><style data-jss="" data-meta="MSFTToggle">
-.c01314 {
-  display: inline-block;
-  transition: all 0.2s ease-in-out;
-  color: #2B2B2B;
-}
-@media (-ms-high-contrast:active) {
-  .c01314 {
-    -ms-high-contrast-adjust: none;
-  }
-}
-.c01315 {
-  clear: both;
-  cursor: pointer;
-  display: block;
-  padding-bottom: 7px;
-  font-size: 14px;
-  line-height: 20px;
-}
-.c01316 {
-  cursor: pointer;
-  position: relative;
-  margin-top: 0;
-  float: left;
-}
-.c01317 {
-  position: absolute;
-  transition: all .1s ease;
-  pointer-events: none;
-  top: 5px;
-  left: 5px;
-  right: unset;
-  border-radius: 10px;
-  width: 10px;
-  height: 10px;
-  background: #2B2B2B;
-}
-.c01318 {
-  cursor: pointer;
-  margin: 0;
-  display: block;
-  outline: none;
-  position: relative;
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 40px;
-  height: 20px;
-  background: #FFFFFF;
-  border: 1px solid #BEBEBE;
-  border-radius: 20px;
-}
-.c01318:active {
-  background: #FFFFFF;
-  border-color: #D6D6D6;
-}
-.c01318:hover {
-  background: #FFFFFF;
-  border-color: #979797;
-}
-.c01318:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01318:focus, .js-focus-visible .c01318.focus-visible, .js-focus-visible [data-focus-visible-added].c01318 {
-  box-shadow: 0 0 0 1px #888888 inset;
-  border-color: #888888;
-}
-@media (-ms-high-contrast:active) {
-  .c01318 {
-    background: Window;
-    border-color: ButtonText;
-  }
-  .c01318 + span {
-    background: ButtonText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01318:focus, .js-focus-visible .c01318.focus-visible, .js-focus-visible [data-focus-visible-added].c01318 {
-    border-color: ButtonText;
-    box-shadow: 0 0 0 1px ButtonText inset;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01318:hover {
-    background: Window;
-    border-color: Highlight;
-  }
-  .c01318:hover + span {
-    background: Highlight;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01318:active {
-    background: Highlight;
-    border-color: HighlightText;
-  }
-  .c01318:active + span {
-    background: HighlightText;
-  }
-}
-.c01319 {
-}
-.c01319 .c01318 {
-  background: #0078D4;
-  border-color: #0078D4;
-}
-.c01319 .c01317 {
-  left: 25px;
-  right: unset;
-  background: #FFFFFF;
-}
-.c01319 .c01318:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01319 .c01318:focus, .js-focus-visible .c01319 .c01318.focus-visible, .js-focus-visible [data-focus-visible-added].c01319 .c01318 {
-  box-shadow: 0 0 0 1px #888888 inset, 0 0 0 3px #FFFFFF inset;
-  border-color: #888888;
-}
-.c01319 .c01318:disabled {
-}
-.c01319 .c01318:hover {
-}
-.c01319 .c01318:active {
-}
-@media (-ms-high-contrast:active) {
-  .c01319 .c01318 {
-    background: Highlight;
-    border-color: Highlight;
-  }
-  .c01319 .c01318 + span {
-    background: HighlightText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01319 .c01318:active {
-    background: Highlight !important;
-    border-color: Highlight !important;
-  }
-  .c01319 .c01318:active + span {
-    background: HighlightText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01319 .c01318:hover {
-    background: HighlightText;
-    border-color: Highlight;
-  }
-  .c01319 .c01318:hover + span {
-    background: Highlight;
-  }
-}
-.c01319 .c01318:disabled .c01318, .c01319 .c01318:disabled .c01315, .c01319 .c01318:disabled .c01321 {
-}
-@media (-ms-high-contrast:active) {
-  .c01319 .c01318:disabled .c01318, .c01319 .c01318:disabled .c01315, .c01319 .c01318:disabled .c01321 {
-    color: GrayText !important;
-    background: transparent;
-    border-color: GrayText !important;
-  }
-  .c01319 .c01318:disabled .c01318 + span, .c01319 .c01318:disabled .c01315 + span, .c01319 .c01318:disabled .c01321 + span {
-    background: GrayText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01319 .c01318:focus, .js-focus-visible .c01319 .c01318.focus-visible, .js-focus-visible [data-focus-visible-added].c01319 .c01318 {
-    border-color: ButtonText !important;
-    box-shadow: 0 0 0 2px inset ButtonFace;
-  }
-}
-.c01320 {
-  cursor: not-allowed !important;
-  opacity: 0.3;
-}
-@media (-ms-high-contrast:active) {
-  .c01320 {
-    color: GrayText;
-    opacity: 1;
-  }
-}
-.c01320 .c01318, .c01320 .c01315, .c01320 .c01321 {
-  cursor: not-allowed !important;
-}
-@media (-ms-high-contrast:active) {
-  .c01320 .c01318, .c01320 .c01315, .c01320 .c01321 {
-    color: GrayText !important;
-    background: transparent;
-    border-color: GrayText !important;
-  }
-  .c01320 .c01318 + span, .c01320 .c01315 + span, .c01320 .c01321 + span {
-    background: GrayText !important;
-  }
-}
-.c01321 {
-  margin-top: 0;
-  user-select: none;
-  padding-bottom: 0;
-  font-size: 14px;
-  line-height: 20px;
-  float: left;
-  padding-left: 5px;
-}
-@media (-ms-high-contrast:active) {
-  .c01321 {
-    fill: WindowText !important;
-    color: WindowText !important;
-  }
-}
-</style><style data-jss="" data-meta="ge">
-.c01297 {
-  flex: 0 1 auto;
-  margin: 0;
-  display: flex;
-  padding: 0;
-  position: relative;
-}
-.c01298 {
-  display: flex;
-  margin-inline-start: 8px;
-}
-.c01299 {
-  display: flex;
-  direction: horizontal;
-}
-.c01300 {
-  fill: #CC0000;
-  margin-top: 7px;
-}
-.c01301 {
-  color: #CC0000;
-  margin-top: 4px;
-  margin-bottom: 0px;
-  margin-inline-start: 4px;
-  font-size: 14px;
-  line-height: 20px;
-}
-.c01302 {
-  flex: 1;
-  padding: 10px 0;
-  overflow: auto;
-  overflow-wrap: break-word;
-}
-.c01303 {
-  cursor: inherit;
-  flex-shrink: 0;
-  margin-inline-end: 20px;
-}
-.c01304 {
-  cursor: inherit;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
-  color: #2B2B2B;
-}
-.c01305 {
-  opacity: 0.5;
-}
-@media (-ms-high-contrast:active) {
-  .c01305 {
-    color: GrayText;
-    opacity: 1;
-    forced-color-adjust: none;
-  }
-}
-.c01306 {
-  margin-top: 10px;
-  margin-inline-end: 8px;
-}
-.c01307 {
-  min-height: 40px;
-}
-.c01308 {
-  margin-top: 4px;
-  margin-bottom: 0px;
-  font-size: 12px;
-  line-height: 16px;
-  color: #767676;
-}
-.c01309 {
-  opacity: 0.5;
-}
-@media (-ms-high-contrast:active) {
-  .c01309 {
-    color: GrayText;
-    opacity: 1;
-    forced-color-adjust: none;
-  }
-}
-.c01310 {
-  min-height: 60px;
-}
-.c01311 {
-  min-height: 80px;
-}
-.c01312 {
-  cursor: pointer;
-}
-.c01312 .c01308 {
-  cursor: pointer;
-}
-</style><style data-jss="" data-meta="MSFTToggle - jssStyleSheet">
-.c01322 {
-  margin-top: 10px;
-}
-</style><style data-jss="" data-meta="BaseCard">
-.c01296 {
-  width: 100%;
-  height: 100%;
-  transition: all 0.2s ease-in-out;
-  background: #FFFFFF;
-  border-radius: 4px;
-  box-shadow: 0px 1.6px 3.6px rgba(0,0,0,0.13), 0px 0px 2.9px rgba(0,0,0,0.11);
-}
-@media (-ms-high-contrast:active) {
-  .c01296 {
-    border: 1px solid WindowText;
-  }
-}
-</style><style data-jss="" data-meta="ge - jssStyleSheet">
-.c01313 {
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-inline-start: 0px;
-}
-</style><style data-jss="" data-meta="MSFTParagraph">
-.c01291 {
-  cursor: default;
-  font-weight: 400;
-}
-.c01292 {
-}
-.c01293 {
-}
-.c01294 {
-}
-</style><style data-jss="" data-meta="MSFTButtonBase">
-.c01285 {
-  position: relative;
-}
-.c01285::before {
-  width: 100%;
-  bottom: -3px;
-  content: '';
-  display: block;
-  position: absolute;
-  height: 1px;
-  left: 0;
-}
-.c01285 svg {
-  width: 16px;
-  height: 16px;
-}
-.c01286 {
-  cursor: not-allowed !important;
-  opacity: 0.3;
-}
-@media (-ms-high-contrast:active) {
-  .c01286 {
-    color: GrayText;
-    opacity: 1;
-  }
-}
-.c01287 {
-  width: 16px;
-  height: 16px;
-}
-.c01288 {
-  width: 16px;
-  height: 16px;
-}
-.c01289 {
-}
-.c01289 .c01287 {
-  margin-right: 12px;
-}
-.c01289 .c01288 {
-  margin-left: 12px;
-}
-.c01290 {
-  cursor: pointer;
-  border: 0;
-  padding: 0;
-  display: inline-flex;
-  overflow: hidden;
-  max-width: 374px;
-  box-sizing: border-box;
-  transition: all 0.1s ease-in-out;
-  line-height: 1;
-  font-family: inherit;
-  align-items: center;
-  white-space: nowrap;
-  justify-content: flex-start;
-  text-decoration: none;
-  background-color: transparent;
-  font-size: 14px;
-  border-radius: 2px;
-  min-width: 32px;
-  height: 32px;
-  color: #0072C9;
-  fill: #0072C9;
-}
-.c01290::-moz-focus-inner {
-  border: 0;
-}
-.c01290:focus {
-  outline: none;
-}
-body:not(.js-focus-visible) .c01290:focus, .js-focus-visible .c01290.focus-visible, .js-focus-visible [data-focus-visible-added].c01290 {
-  box-shadow: none;
-  border-color: transparent;
-}
-a.c01290, button.c01290 {
-}
-.c01290 .c01285::before {
-}
-.c01290:hover .c01285::before {
-  background: #0060A9;
-}
-.c01290:hover.c01286 .c01285::before {
-  display: none;
-}
-.c01290:active .c01285::before {
-  background: #097DD5;
-}
-.c01290.c01286, .c01290.c01286 .c01285::before {
-  background-color: transparent;
-}
-.c01290:hover:enabled, a.c01290:not(.c01286):hover {
-  background-color: transparent;
-  color: #0060A9;
-  fill: #0060A9;
-}
-.c01290:active:enabled, a.c01290:not(.c01286):active {
-  background-color: transparent;
-  color: #097DD5;
-  fill: #097DD5;
-}
-@media (-ms-high-contrast:active) {
-  .c01290 {
-    fill: ButtonText;
-    color: ButtonText;
-    border: none;
-    background: ButtonFace;
-    -ms-high-contrast-adjust: none;
-  }
-}
-a.c01290:not(.c01286) {
-}
-@media (-ms-high-contrast:active) {
-  a.c01290:not(.c01286) {
-    fill: LinkText !important;
-    color: LinkText !important;
-    background: Window;
-  }
-}
-a.c01290:not(.c01286):not(.c01286):hover {
-}
-a.c01290:not(.c01286):hover .c01285::before {
-}
-a.c01290:not(.c01286) .c01285::before {
-}
-@media (-ms-high-contrast:active) {
-  a.c01290:not(.c01286) .c01285::before {
-    background: transparent;
-  }
-}
-@media (-ms-high-contrast:active) {
-  a.c01290:not(.c01286):hover .c01285::before {
-    background: LinkText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  a.c01290:not(.c01286):not(.c01286):hover {
-    fill: LinkText !important;
-    color: LinkText !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01290:hover:enabled, a.c01290:not(.c01286):hover {
-    fill: Highlight !important;
-    color: Highlight !important;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01290.c01286, .c01290.c01286 .c01285::before {
-    fill: GrayText !important;
-    color: GrayText !important;
-    opacity: 1;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01290:active .c01285::before {
-    background: Highlight;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01290:hover .c01285::before {
-    background: Highlight;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01290 .c01285::before {
-    background: ButtonText;
-  }
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01290:focus, .js-focus-visible .c01290.focus-visible, .js-focus-visible [data-focus-visible-added].c01290 {
-    fill: Highlight !important;
-    color: Highlight !important;
-  }
-}
-body:not(.js-focus-visible) .c01290:focus .c01285::before, .js-focus-visible .c01290.focus-visible .c01285::before, .js-focus-visible [data-focus-visible-added].c01290 .c01285::before {
-  background: #262626;
-  height: 2px;
-}
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01290:focus .c01285::before, .js-focus-visible .c01290.focus-visible .c01285::before, .js-focus-visible [data-focus-visible-added].c01290 .c01285::before {
-    background: Highlight;
-  }
-}
-</style><style data-jss="" data-meta="MSFTParagraph - jssStyleSheet">
-.c01295 {
-  padding: 0;
-  margin-bottom: 1em !important;
-}
-</style><style data-jss="" data-meta="Fi">
-.c01283 {
-  width: 28px;
-  height: 28px;
-  min-width: 28px;
-  padding-inline-start: 6px;
-}
-.c01284 {
-}
-</style><style data-jss="" data-meta="Qi">
-.c01276 {
-  max-width: 820px;
-  min-width: 250px;
-}
-.c01277 {
-  height: 34px;
-  display: flex;
-  align-items: center;
-  margin-inline-end: 12px;
-}
-.c01278 {
-  margin: 0px;
-}
-.c01279 {
-  role: radiogroup;
-  display: grid;
-  grid-gap: 16px;
-  padding-bottom: 5px;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-@media only screen and (max-width: 1134px) {
-  .c01279 {
-    grid-template-columns: 1fr;
-  }
-}
-@media only screen and (max-width: 1035px) {
-  .c01279 {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media only screen and (max-width: 755px) {
-  .c01279 {
-    grid-template-columns: 1fr;
-  }
-}
-.c01280 {
-  padding: 0px 16px;
-}
-.c01281 {
-  min-width: 215px;
-  max-width: 820px;
-  margin-inline-end: 50px;
-}
-.c01282 {
-  padding-bottom: 20px;
-}
-</style><style data-jss="" data-meta="BaseHypertext">
-.c01275 {
+<style data-jss="" data-meta="BaseHypertext">
+.c01665 {
   outline: none;
   transition: all 0.2s ease-in-out, border 0.03s ease-in-out;
   text-decoration: none;
   color: #262626;
 }
-.c01275:link, .c01275:visited {
+.c01665:link, .c01665:visited {
   border-bottom: 1px solid #0072C9;
   color: #0072C9;
 }
 @media (-ms-high-contrast:active) {
-  .c01275 {
+  .c01665 {
     color: WindowText;
     -ms-high-contrast-adjust: none;
   }
 }
-.c01275:link:hover, .c01275:visited:hover {
+.c01665:link:hover, .c01665:visited:hover {
   border-bottom-color: #0060A9;
   color: #0060A9;
 }
-.c01275:link:active, .c01275:visited:active {
+.c01665:link:active, .c01665:visited:active {
   border-bottom-color: #097DD5;
   color: #097DD5;
 }
-.c01275:link:focus, .c01275:visited:focus {
+.c01665:link:focus, .c01665:visited:focus {
   outline: none;
 }
-body:not(.js-focus-visible) .c01275:link:focus, .js-focus-visible .c01275:link.focus-visible, .js-focus-visible [data-focus-visible-added].c01275:link, body:not(.js-focus-visible) .c01275:visited:focus, .js-focus-visible .c01275:visited.focus-visible, .js-focus-visible [data-focus-visible-added].c01275:visited {
+body:not(.js-focus-visible) .c01665:link:focus, .js-focus-visible .c01665:link.focus-visible, .js-focus-visible [data-focus-visible-added].c01665:link, body:not(.js-focus-visible) .c01665:visited:focus, .js-focus-visible .c01665:visited.focus-visible, .js-focus-visible [data-focus-visible-added].c01665:visited {
   border-bottom: 2px solid #838383;
 }
 @media (-ms-high-contrast:active) {
-  .c01275:link, .c01275:visited {
+  .c01665:link, .c01665:visited {
     color: LinkText !important;
     border-bottom-color: LinkText !important;
   }
 }
 @media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01275:link:focus, .js-focus-visible .c01275:link.focus-visible, .js-focus-visible [data-focus-visible-added].c01275:link, body:not(.js-focus-visible) .c01275:visited:focus, .js-focus-visible .c01275:visited.focus-visible, .js-focus-visible [data-focus-visible-added].c01275:visited {
+  body:not(.js-focus-visible) .c01665:link:focus, .js-focus-visible .c01665:link.focus-visible, .js-focus-visible [data-focus-visible-added].c01665:link, body:not(.js-focus-visible) .c01665:visited:focus, .js-focus-visible .c01665:visited.focus-visible, .js-focus-visible [data-focus-visible-added].c01665:visited {
     color: LinkText !important;
     border-bottom-color: LinkText !important;
   }
 }
 @media (-ms-high-contrast:active) {
-  .c01275:link:hover, .c01275:visited:hover {
+  .c01665:link:hover, .c01665:visited:hover {
     color: LinkText !important;
     border-bottom-color: LinkText !important;
   }
 }
-</style>
-  <style data-jss="" data-meta="ar">
-.c01269 {
-  max-width: 820px;
-  min-width: 250px;
-}
-.c01270 {
+</style><style data-jss="" data-meta="Us">
+.c01681 {
   display: flex;
-  max-width: 820px;
-  min-width: 250px;
   align-items: center;
   flex-direction: row;
-  color: #262626;
 }
-.c01271 {
-  margin-inline-end: 20px;
+.c01681 pre {
+  font-family: system-ui, sans-serif;
 }
-.c01272 {
+.c01682 {
+  width: 16px;
+  height: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-inline-end: 18px;
+  margin-inline-start: 8px;
+}
+.c01683 {
+  margin-inline-start: 8px;
+}
+.c01684 {
+  flex-shrink: 0;
+  margin-inline-start: 8px;
+}
+.c01685 {
+  display: flex;
   flex-grow: 1;
   flex-direction: column;
 }
-.c01273 {
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 32px;
-}
-.c01274 {
-  margin: 0;
+.c01686 {
+  width: fit-content;
   font-size: 14px;
-  max-width: 531px;
   line-height: 20px;
+  font-weight: 600;
 }
-</style><style data-jss="" data-meta="le">
-.c01256 {
-  z-index: 7;
-  position: absolute;
+.c01687 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
 }
-.c01257 {
+.c01688 {
+  padding-top: 4px;
   font-size: 12px;
   line-height: 16px;
   color: #717171;
 }
-@media (-ms-high-contrast:active) {
-  .c01257 {
-    color: HighlightText;
-    forced-color-adjust: none;
-  }
+.c01689 {
+  fill: #0078D4;
 }
-.c01258 {
-  padding: 4px 10px;
-  max-width: 500px;
-  min-width: 64px;
-  text-align: center;
-  align-items: center;
-  border-radius: 2px;
-  background-color: rgba(255, 235, 59, 0.9);
-}
-@media (-ms-high-contrast:active) {
-  .c01258 {
-    background-color: Highlight;
-    forced-color-adjust: none;
-  }
-}
-.c01258::after {
-  left: calc(50% - 5px);
-  width: 10px;
-  height: 10px;
-  content: "";
-  z-index: -1;
-  position: absolute;
-  background-color: rgba(255, 235, 59, 0.9);
-}
-@media (-ms-high-contrast:active) {
-  .c01258::after {
-    background-color: Highlight;
-    forced-color-adjust: none;
-  }
-}
-.c01259 {
-}
-.c01259::after {
-  top: auto;
-  bottom: -5px;
-  transform: rotate(-135deg);
-}
-.c01260 {
-}
-.c01260::after {
-  top: -5px;
-  bottom: 0px;
-  transform: rotate(-45deg);
-}
-</style><style data-jss="" data-meta="MSFTButtonBase">
-.c01249 {
-  position: relative;
-}
-.c01249::before {
-  width: 100%;
-  bottom: -3px;
-  content: '';
-  display: block;
-  position: absolute;
-  height: 1px;
-  left: 0;
-}
-.c01249 svg {
-  width: 16px;
-  height: 16px;
-}
-.c01250 {
-  cursor: not-allowed !important;
-  opacity: 0.3;
-}
-@media (-ms-high-contrast:active) {
-  .c01250 {
-    color: GrayText;
-    opacity: 1;
-  }
-}
-.c01251 {
-  width: 16px;
-  height: 16px;
-}
-.c01252 {
-  width: 16px;
-  height: 16px;
-}
-.c01253 {
-}
-.c01253 .c01251 {
-  margin-right: 12px;
-}
-.c01253 .c01252 {
-  margin-left: 12px;
-}
-.c01254 {
-  cursor: pointer;
-  display: inline-flex;
-  overflow: hidden;
-  max-width: 374px;
-  box-sizing: border-box;
-  transition: all 0.1s ease-in-out;
-  line-height: 1;
-  font-family: inherit;
-  align-items: center;
-  white-space: nowrap;
-  justify-content: center;
-  text-decoration: none;
+.c01690 {
   font-size: 14px;
-  border: 2px solid transparent;
-  border-radius: 2px;
-  min-width: 32px;
-  padding: 0 10px;
-  height: 32px;
-  color: #262626;
+  line-height: 20px;
+  font-weight: 600;
+}
+.c01691 {
   fill: #262626;
-  background: #F7F7F7;
 }
-.c01254::-moz-focus-inner {
-  border: 0;
+.c01692 {
+  fill: #0072C9;
 }
-.c01254:hover:enabled, a.c01254:not(.c01250):hover {
-  background-color: #EAEAEA;
+.c01693 {
+  fill: #CC0000;
 }
-.c01254:active:enabled, a.c01254:not(.c01250):active {
-  background-color: #EFEFEF;
+.c01694 {
+  file: #262626;
 }
-.c01254:focus {
+.c01695 {
+}
+</style><style data-jss="" data-meta="Co">
+.c01667 {
+  max-width: 820px;
+  min-width: 250px;
+  color: #262626;
+}
+.c01667 a {
   outline: none;
+  transition: all 0.2s ease-in-out, border 0.03s ease-in-out;
+  text-decoration: none;
+  color: #262626;
 }
-body:not(.js-focus-visible) .c01254:focus, .js-focus-visible .c01254.focus-visible, .js-focus-visible [data-focus-visible-added].c01254 {
-  border-color: #838383;
-}
-.c01254:disabled {
+.c01667 a:link, .c01667 a:visited {
+  border-bottom: 1px solid #0072C9;
+  color: #0072C9;
 }
 @media (-ms-high-contrast:active) {
-  .c01254 {
-    fill: ButtonText;
-    color: ButtonText;
-    border: none;
-    background: ButtonFace;
+  .c01667 a {
+    color: WindowText;
     -ms-high-contrast-adjust: none;
   }
 }
-a.c01254:not(.c01250) {
+.c01667 a:link:hover, .c01667 a:visited:hover {
+  border-bottom-color: #0060A9;
+  color: #0060A9;
+}
+.c01667 a:link:active, .c01667 a:visited:active {
+  border-bottom-color: #097DD5;
+  color: #097DD5;
+}
+.c01667 a:link:focus, .c01667 a:visited:focus {
+  outline: none;
+}
+body:not(.js-focus-visible) .c01667 a:link:focus, .js-focus-visible .c01667 a:link.focus-visible, .js-focus-visible [data-focus-visible-added].c01667 a:link, body:not(.js-focus-visible) .c01667 a:visited:focus, .js-focus-visible .c01667 a:visited.focus-visible, .js-focus-visible [data-focus-visible-added].c01667 a:visited {
+  border-bottom: 2px solid #838383;
 }
 @media (-ms-high-contrast:active) {
-  a.c01254:not(.c01250) {
-    fill: LinkText !important;
+  .c01667 a:link, .c01667 a:visited {
     color: LinkText !important;
-    background: Window;
-    border-color: LinkText !important;
-  }
-}
-a.c01254:not(.c01250):not(.c01250):hover {
-}
-a.c01254:not(.c01250).c01250 {
-}
-@media (-ms-high-contrast:active) {
-  a.c01254:not(.c01250).c01250 {
-    fill: GrayText !important;
-    color: GrayText !important;
-    opacity: 1;
-    background: ButtonFace !important;
-    border-color: GrayText !important;
+    border-bottom-color: LinkText !important;
   }
 }
 @media (-ms-high-contrast:active) {
-  a.c01254:not(.c01250):not(.c01250):hover {
-    background: ButtonFace;
-    box-shadow: 0 0 0 1px inset LinkText !important;
+  body:not(.js-focus-visible) .c01667 a:link:focus, .js-focus-visible .c01667 a:link.focus-visible, .js-focus-visible [data-focus-visible-added].c01667 a:link, body:not(.js-focus-visible) .c01667 a:visited:focus, .js-focus-visible .c01667 a:visited.focus-visible, .js-focus-visible [data-focus-visible-added].c01667 a:visited {
+    color: LinkText !important;
+    border-bottom-color: LinkText !important;
   }
 }
 @media (-ms-high-contrast:active) {
-  .c01254:disabled {
-    fill: GrayText !important;
-    color: GrayText !important;
-    opacity: 1;
-    background: ButtonFace !important;
-    border-color: GrayText !important;
+  .c01667 a:link:hover, .c01667 a:visited:hover {
+    color: LinkText !important;
+    border-bottom-color: LinkText !important;
   }
 }
-@media (-ms-high-contrast:active) {
-  body:not(.js-focus-visible) .c01254:focus, .js-focus-visible .c01254.focus-visible, .js-focus-visible [data-focus-visible-added].c01254 {
-    border-color: ButtonText;
-    box-shadow: 0 0 0 1px inset ButtonText;
-  }
+.c01668 {
+  margin-top: 32px;
 }
-@media (-ms-high-contrast:active) {
-  .c01254:hover:enabled, a.c01254:not(.c01250):hover {
-    fill: HighlightText;
-    color: HighlightText;
-    background: Highlight;
-  }
-}
-</style><style data-jss="" data-meta="ge">
-.c01233 {
-  flex: 0 1 auto;
-  margin: 0;
+.c01669 {
   display: flex;
-  padding: 0;
-  position: relative;
+  flex-direction: row;
 }
-.c01234 {
+.c01670 {
   display: flex;
-  margin-inline-start: 8px;
+  flex-direction: column;
+  justify-content: center;
 }
-.c01235 {
-  display: flex;
-  direction: horizontal;
+.c01671 {
+  margin-inline-end: 16px;
 }
-.c01236 {
-  fill: #CC0000;
-  margin-top: 7px;
-}
-.c01237 {
-  color: #CC0000;
-  margin-top: 4px;
-  margin-bottom: 0px;
-  margin-inline-start: 4px;
-  font-size: 14px;
-  line-height: 20px;
-}
-.c01238 {
-  flex: 1;
-  padding: 10px 0;
-  overflow: auto;
-  overflow-wrap: break-word;
-}
-.c01239 {
-  cursor: inherit;
-  flex-shrink: 0;
-  margin-inline-end: 20px;
-}
-.c01240 {
-  cursor: inherit;
+.c01672 {
+  margin-bottom: 12px;
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #262626;
 }
-.c01241 {
-  opacity: 0.5;
+.c01673 {
+  font-size: 12px;
+  line-height: 16px;
 }
-@media (-ms-high-contrast:active) {
-  .c01241 {
-    color: GrayText;
-    opacity: 1;
-    forced-color-adjust: none;
-  }
-}
-.c01242 {
-  margin-top: 10px;
-  margin-inline-end: 8px;
-}
-.c01243 {
+.c01674 {
+  display: flex;
   min-height: 40px;
+  align-items: center;
+  flex-direction: row;
 }
-.c01244 {
-  margin-top: 4px;
-  margin-bottom: 0px;
+.c01675 {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.c01676 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.c01677 {
+  padding: 0;
+}
+.c01678 {
   font-size: 12px;
   line-height: 16px;
   color: #717171;
 }
-.c01245 {
-  opacity: 0.5;
+.c01678 > *:not(:first-child) {
+  margin: 12px 0 12px 0;
 }
-@media (-ms-high-contrast:active) {
-  .c01245 {
-    color: GrayText;
-    opacity: 1;
-    forced-color-adjust: none;
-  }
+.c01678 > *:first-child {
+  margin: 0 0 12px 0;
 }
-.c01246 {
-  min-height: 60px;
-}
-.c01247 {
-  min-height: 80px;
-}
-.c01248 {
-  cursor: pointer;
-}
-.c01248 .c01244 {
-  cursor: pointer;
-}
-</style><style data-jss="" data-meta="MSFTButtonBase - jssStyleSheet">
-.c01255 {
-  width: 36px;
-  height: 36px;
+.c01679 {
   margin: 0;
-  cursor: pointer;
-  padding: 0;
-  min-width: 36px;
-  max-width: unset;
-  transition: none;
-  background: transparent;
-  margin-top: 2px;
+  padding-top: 4px;
 }
-.c01255:hover:not([disabled]) {
-}
-.c01255 > * {
-  display: flex !important;
-}
-.c01255:disabled {
-}
-@media (-ms-high-contrast:active) {
-  .c01255 {
-    fill: ButtonText;
-    forced-color-adjust: none;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01255:disabled {
-    fill: GrayText;
-    forced-color-adjust: none;
-  }
-}
-@media (-ms-high-contrast:active) {
-  .c01255:hover:not([disabled]) {
-    fill: HighlightText !important;
-    background: Highlight;
-    forced-color-adjust: none;
-  }
+.c01680 {
+  padding: 10px 0 10px 0;
 }
 </style><style data-jss="" data-meta="withRouter(O)">
 ::-webkit-scrollbar {
@@ -2384,7 +797,9 @@ body:not(.js-focus-visible) .c01134 > a:focus, .js-focus-visible .c01134 > a.foc
 </style><style data-jss="" data-meta="wn">
 .c01131 {
   min-width: 250px;
-  padding: 25px;
+  padding-block-end: 18px;
+  padding-inline-end: 50px;
+  padding-inline-start: 50px;
 }
 @media only screen and (max-width: 1035px) {
   .c01131 {
@@ -2398,7 +813,6 @@ body:not(.js-focus-visible) .c01134 > a:focus, .js-focus-visible .c01134 > a.foc
 }
 </style><style data-jss="" data-meta="O">
 .c01115 {
-  text-decoration: none;
   cursor: pointer;
   position: relative;
   color: #262626;
@@ -3561,7 +1975,7 @@ body:not(.js-focus-visible) .c0176:focus, .js-focus-visible .c0176.focus-visible
   margin-left: 12px;
 }
 </style><style data-jss="" data-meta="MSFTHeading - jssStyleSheet">
-.c01397 {
+.c01711 {
   margin-top: 10px;
 }
 </style><style data-jss="" data-meta="Pane">
@@ -3618,11 +2032,6 @@ body:not(.js-focus-visible) .c0165:focus, .js-focus-visible .c0165.focus-visible
 </style><style data-jss="" data-meta="MSFTButton - jssStyleSheet">
 .c0181 {
   min-width: 32px;
-}
-</style><style data-jss="" data-meta="MSFTButton - jssStyleSheet">
-.c01380 {
-  cursor: pointer;
-  margin-top: 4px;
 }
 </style><style data-jss="" data-meta="Row">
 .c0156 {
@@ -4026,8 +2435,7 @@ body:not(.js-focus-visible) .c0163:focus, .js-focus-visible .c0163.focus-visible
   height: auto;
   display: block;
 }
-</style>
-  <style data-jss="" data-meta="He">
+</style><style data-jss="" data-meta="He">
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -4358,8 +2766,7 @@ body:not(.js-focus-visible) .c013 > a:focus, .js-focus-visible .c013 > a.focus-v
 .c0125 {
   transform: scale(-1,1);
 }
-</style>
-  <style data-jss="" data-meta="Ce - jssStyleSheet">
+</style><style data-jss="" data-meta="Ce - jssStyleSheet">
 .c0148 {
   width: unset;
   z-index: 3;
@@ -4467,265 +2874,12 @@ body:not(.js-focus-visible) .c013 > a:focus, .js-focus-visible .c013 > a.focus-v
   line-height: 32px;
   color: #262626;
 }
-</style>
-  <!-- endregion CSS -->
-
-</head>
+</style></head>
 
 <body style="margin: 0" class="js-focus-visible">
-<div id="app-root">
-
-  <div style="background-color: rgb(247, 247, 247);">
-    <div id="SidePaneLayout" class="c0126">
-      <div class="c0155 c0128">
-        <div class="c0156 c0157 c0145 c0148" aria-hidden="false" style="min-height: 40px; flex-basis: 40px;">
-          <!--region navibar here-->
-          <div class="c0164 c0167" aria-hidden="false" >
-            <div class="c0144 c0150" style=" padding: 25px; " >
-
-              <div role="navigation" class="c0119">
-                <div  role="tree" tabindex="0" class="c01114">
-
-                  <a href="index.html" id="/profile" role="treeitem" aria-selected="true" tabindex="-1" class="c01115 c01124">
-                    <div  title="Profile" class="c01118">
-                      <div class="c01119">
-                        <div aria-hidden="true" class="c01117">
-                          <svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16"
-                               height="16">
-                            <path d="M1664 256h256v1664H256v-256H0V0h1664v256zM128 1536h128V256h1280V128H128v1408zm1664 256V384H384v1408h1408zm-704-576q-66 0-124 25t-102 69-69 102-25 124H640q0-63 17-123t50-112 78-95 103-71q-42-41-65-95t-23-112q0-60 22-112t62-92 91-61 113-23q60 0 112 22t92 62 61 91 23 113q0 58-23 112t-65 95q57 28 103 70t78 95 49 113 18 123h-128q0-66-25-124t-69-101-102-69-124-26zM928 928q0 33 12 62t35 51 51 34 62 13q33 0 62-12t51-35 34-51 13-62q0-33-12-62t-35-51-51-34-62-13q-33 0-62 12t-51 35-34 51-13 62z"></path>
-                          </svg>
-                        </div>
-                        Profiles
-                      </div>
-                    </div>
-                  </a>
-
-                  <a href="summary.html" yaria-selected="false" tabindex="-1" class="c01115">
-                    <div title="System" class="c01118">
-                      <div class="c01119">
-                        <div aria-hidden="true" class="c01117">
-                          <svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16"
-                               height="16">
-                            <path d="M2000 1397q11 11 20 28t15 37 9 39 4 35q0 25-10 48t-29 41-41 28-48 11H256q-25 0-48-10t-41-29-28-41-11-48q0-15 3-34t10-39 15-37 20-29l208-208V384h1408v805l208 208zM512 1152h1152V512H512v640zm1408 381q0-4-1-11t-4-15-5-15-6-10l-203-202H475l-203 202q-3 3-5 10t-5 14-4 15-2 12l3 3h1658l3-3z"></path>
-                          </svg>
-                        </div>
-                        Summary
-                      </div>
-                    </div>
-                  </a>
-
-                  <a href="skill.html"  aria-selected="false" tabindex="-1" class="c01115">
-                    <div title="Appearance" class="c01118">
-                      <div class="c01119">
-                        <div aria-hidden="true" class="c01117">
-                          <svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16"
-                               height="16">
-                            <path d="M1024 0q141 0 272 36t245 103 207 160 160 208 103 245 37 272q0 141-36 272t-103 245-160 207-208 160-245 103-272 37q-53 0-99-20t-81-55-55-81-21-100q0-49 9-85t24-67 31-56 31-52 23-56 10-68q0-52-20-99t-55-81-82-55-99-21q-38 0-67 9t-56 24-53 31-56 31-67 23-85 10q-53 0-99-20t-81-55-55-81-21-100q0-141 36-272t103-245 160-207 208-160T751 37t273-37zm0 1920q123 0 237-32t214-90 182-141 140-181 91-214 32-238q0-123-32-237t-90-214-141-182-181-140-214-91-238-32q-123 0-237 32t-214 90-182 141-140 181-91 214-32 238q0 27 10 50t27 40 41 28 50 10q38 0 67-9t56-24 52-31 55-31 67-23 87-10q80 0 150 30t122 82 82 122 30 150q0 49-9 86t-24 67-31 55-31 52-23 56-10 68q0 27 10 50t27 40 41 28 50 10zM512 640q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10zm384-256q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10zm512 384q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10zm128 256q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10zm-256 384q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10z"></path>
-                          </svg>
-                        </div>
-                        Skills
-                      </div>
-                    </div>
-                  </a>
-
-                  <a href="ex.html"  aria-selected="false" tabindex="-1" class="c01115">
-                    <div title="New tab page" class="c01118">
-                      <div class="c01119">
-                        <div aria-hidden="true" class="c01117">
-                          <svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16"
-                               height="16">
-                            <path d="M0 0H16V13H0V0ZM15 12V1H1V12H15ZM12 3V4H4V3H12ZM5 7V10H2V7H5ZM4 9V8H3V9H4ZM6.5 10V7H9.5V10H6.5ZM7.5 8V9H8.5V8H7.5ZM11 10V7H14V10H11ZM12 8V9H13V8H12Z"></path>
-                          </svg>
-                        </div>
-                        Work Experience
-                      </div>
-                    </div>
-                  </a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--endregion navibar here-->
-          <div class="c01130 c0127 c0149" data-grid-app="canvas" style="min-width: 300px;">
-            <div role="main" class="c0116 c0117" aria-label="Settings">
-              <div class="c01131">
-                <div class="c01269">
-                  <div class="c01270">
-                    <div class="c01271" aria-hidden="true">
-                      <img src="img/avatar.jpg" width="120" height="130"
-                           style=" -webkit-border-radius: 48%; box-shadow:  0 0 13px 2px rgb(180 247 16  / 31%) " />
-                    </div>
-                    <div class="c01272">
-                      <p class="c01273">Đặng Trần Minh Huy</p>
-
-                        <div class="c012970 c012980 c012985" style=" padding: 4px; ">
-                          <div class="c012976" aria-hidden="true" style="font-size: 16px;">
-                            <i class="fas fa-birthday-cake" width="16" height="16"></i>
-                            <span style=" padding-left: 4px; " class="c0177 c012920">1996·10·16</span>
-                          </div>
-                        </div>
-
-                        <div class="c012970 c012980 c012985" style=" padding: 4px; ">
-                          <div class="c012976" aria-hidden="true" style="font-size: 16px;">
-                            <img src="img/phone.png" style=" width: 16px; height: 16px; "  />
-                            <span style=" padding-left: 4px; " class="c0177 c012920">0965016885</span>
-                          </div>
-                        </div>
-                        <div class="c012970 c012980 c012985" style=" padding: 4px; ">
-                          <div class="c012976" aria-hidden="true" style="font-size: 16px;">
-                            <img src="img/skype.png" style=" width: 16px; height: 16px; "  />
-                            <span style=" padding-left: 4px; " class="c0177 c012920">huydt20@outlook.com</span>
-                          </div>
-                        </div>
-                        <div class="c012970 c012980 c012985" style=" padding: 4px; ">
-                          <div class="c012976" aria-hidden="true" style="font-size: 16px;">
-                          <svg class="c012968 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1024 0q88 0 170 23t153 64 129 100 100 130 65 153 23 170q0 69-16 131t-48 125l-576 1152L448 896q-31-62-47-124t-17-132q0-88 23-170t64-153 100-129T701 88t153-65 170-23zm476 846v-1l1-1q25-47 38-99t13-105q0-109-41-205t-114-168-168-113-205-42q-109 0-205 41T651 267 538 435t-42 205q0 53 13 105t38 99v1l1 1 476 952 476-952zm-476-582q78 0 146 29t120 81 80 119 30 147q0 78-29 146t-81 120-119 80-147 30q-78 0-146-29t-120-81-80-119-30-147q0-78 29-146t81-120 119-80 147-30zm0 640q55 0 103-20t84-57 56-84 21-103q0-55-20-103t-57-84-84-56-103-21q-55 0-103 20t-84 57-56 84-21 103q0 55 20 103t57 84 84 56 103 21z"></path>
-                          </svg>
-                          <span style=" padding-left: 4px; " class="c0177 c012920">Nha Trang</span>
-                          </div>
-                        </div>
-
-
-                    </div>
-                  </div>
-                </div>
-
-                <div class="c01276">
-
-                  <div class="c01169">
-                    <!-- CAN PUT HEADER TEXT HERE ...-->
-                  </div>
-
-                  <div class="c01281">
-                    <div>
-                      <div class="c01296 c01280">
-                        <div class="c01297 c01313 c01307 c01312">
-                          <div class="c01302">
-                            <div class="c01166">
-                              <header class="c01170" role="banner">
-                                <h2 class="c0191 c0196 c0182 c0187 c01154">Academy</h2>
-                              </header>
-                            </div>
-                          </div>
-
-                          <div class="c01298">
-                            <div class="c01166">
-                                <i class="fa fa-graduation-cap fa-2" aria-hidden="true"></i>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="c01279">
-                          <div class="c01328 c01334 c01278">
-                            <input class="c01329 c01336" type="radio" id="Basic"
-                                                                   name="Basic" value="">
-                            <span class="c01332"></span>
-                            <label slot="label"  class="c01333">
-                            <div class="c01337">
-                              <div class="c01343 c01349">
-                                <div aria-hidden="true" class="c01277">
-                                  <img src="http://fit.ntu.edu.vn/maicuongtho/themes/fitNTU/LogoKhoa-CNTT-NTU.png">
-                                </div>
-                                <div class="c01344 c01350">
-                                  <h3 class="c01361  c01353 c01358 c01345">Nha Trang University</h3>
-                                  <h4 class="c01361">Information Technology - K56</h4>
-                                </div>
-                              </div>
-
-                            </div>
-                          </label>
-                          </div>
-
-<!--
-                          <div class="c01328 c01334 c01278">
-                            <input class="c01329 c01336" type="radio" id="Strict" name="Strict" value="">
-                            <span class="c01332"></span>
-
-                            <label slot="label" for="Strict" class="c01333">
-                            <div class="c01337">
-                              <div class="c01343 c01349">
-                                <div aria-hidden="true" class="c01277">
-                                  // put IMG HERE
-                                </div>
-                                <div class="c01344 c01350"><h2 class="c01361 c01366 c01353 c01358 c01345">Strict</h2>
-                                </div>
-                              </div>
-
-                            </div>
-                          </label>
-                          </div>
--->
-
-                        </div>
-
-                        <div class="c01297 c01307 c01312" style=" min-height: 20px; ">
-                          <div class="c01302" ></div>
-                          <div class="c01298">
-                            <div class="c01314 c01322">
-                              <!--
-                              <div class="c01316">
-                                <input class="c01318" type="checkbox"  tabindex="0" value="">
-                                <span class="c01317"></span>
-                              </div>
-                              -->
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="c01378">
-                  <div class="c01164 c01169">
-                    <div class="c01166">
-                      <header class="c01170" role="banner">
-                        <h2 class="c0191 c0196 c0182 c0187 c01154">Introduce</h2>
-                      </header>
-                    </div>
-                  </div>
-                  <p class="c0191 c0198 c01291 c01295 c01294">
-                    Always improve skills. Seizing the opportunity.
-                  </p>
-                </div>
-
-                <div class="c01381">
-                  <div class="c01164 c01169">
-                    <div class="c01166">
-                      <header class="c01170" role="banner">
-<!--                        <h2 class="c0191 c0196 c0182 c0187 c01154">Hobbies</h2>-->
-                      </header>
-                    </div>
-                  </div>
-
-
-                  <div class="c01233 c01243 c01248">
-                    <div class="c01238">
-                      <div class="c01240">Hobbies</div>
-                      <p style="margin: 0;">Android, Hackintosh, </p>
-                      <p style="margin: 0;">Musical instruments (but not good), Manga, MCU-DCEU...</p>
-                    </div>
-                     <div class="c01238">
-                      <div class="c01240">Defect</div>
-                       <p class="c01244">Playing puzzles, "decode"</p>
-                       <p class="c01244">Sing</p>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
+  <div id="app-root"><div style="background-color: rgb(247, 247, 247);"><div id="SidePaneLayout" class="c0126"><div class="c0155 c0128"><div class="c0156 c0157 c0145 c0148" aria-hidden="false" style="min-height: 40px; flex-basis: 40px;"><div class="c0164 c0167" aria-hidden="false" style="min-width: 340px; flex-basis: 340px;"><div class="c0144 c0150"><div class="c0143 c0151"><div class="c0141"><button aria-label="Settings menu" aria-haspopup="true" class="c0171 c0181 c0176 c0132 c0152"><span class="c0177"><svg class="c0134" viewBox="0 0 16 10" width="16px" height="10px" xmlns="http://www.w3.org/2000/svg"><title>menu</title><path d="M0 1H16V0H0V1ZM0 9H16V8H0V9ZM0 4.99219H16V4H0V4.99219Z"></path></svg></span></button><h1 class="c0191 c0195 c0182 c0186 c0142 c0154">Settings</h1></div></div><div role="search"><div style="background-color: rgb(255, 255, 255);"><div class="c01101 c01109 c0121"><svg class="c0124 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1344 0q97 0 187 25t168 71 142 110 111 143 71 168 25 187q0 97-25 187t-71 168-110 142-143 111-168 71-187 25q-125 0-239-42t-211-121l-785 784q-19 19-45 19t-45-19-19-45q0-26 19-45l784-785q-79-96-121-210t-42-240q0-97 25-187t71-168 110-142T989 96t168-71 187-25zm0 1280q119 0 224-45t183-124 123-183 46-224q0-119-45-224t-124-183-183-123-224-46q-119 0-224 45T937 297 814 480t-46 224q0 119 45 224t124 183 183 123 224 46z"></path></svg><input id="search_input" placeholder="Search settings" autocomplete="off" aria-label="Search settings" class="c01111 c01113" type="text" value=""></div></div></div><div role="navigation" class="c0119"><div aria-label="Settings categories" role="tree" tabindex="0" class="c01114"><div id="/profiles" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Profiles" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1664 256h256v1664H256v-256H0V0h1664v256zM128 1536h128V256h1280V128H128v1408zm1664 256V384H384v1408h1408zm-704-576q-66 0-124 25t-102 69-69 102-25 124H640q0-63 17-123t50-112 78-95 103-71q-42-41-65-95t-23-112q0-60 22-112t62-92 91-61 113-23q60 0 112 22t92 62 61 91 23 113q0 58-23 112t-65 95q57 28 103 70t78 95 49 113 18 123h-128q0-66-25-124t-69-101-102-69-124-26zM928 928q0 33 12 62t35 51 51 34 62 13q33 0 62-12t51-35 34-51 13-62q0-33-12-62t-35-51-51-34-62-13q-33 0-62 12t-51 35-34 51-13 62z"></path></svg></div>Profiles</div></div></div><div id="/privacy" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Privacy and services" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1792 896v1152H256V896h256V522q0-108 39-203t108-166T821 41t203-41q109 0 202 41t163 112 108 166 39 203v374h256zm-1152 0h768V522q0-81-29-152t-80-126-122-85-153-31q-82 0-152 31t-122 85-81 125-29 153v374zm1024 128H384v896h1280v-896z"></path></svg></div>Privacy and services</div></div></div><div id="/appearance" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Appearance" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1024 0q141 0 272 36t245 103 207 160 160 208 103 245 37 272q0 141-36 272t-103 245-160 207-208 160-245 103-272 37q-53 0-99-20t-81-55-55-81-21-100q0-49 9-85t24-67 31-56 31-52 23-56 10-68q0-52-20-99t-55-81-82-55-99-21q-38 0-67 9t-56 24-53 31-56 31-67 23-85 10q-53 0-99-20t-81-55-55-81-21-100q0-141 36-272t103-245 160-207 208-160T751 37t273-37zm0 1920q123 0 237-32t214-90 182-141 140-181 91-214 32-238q0-123-32-237t-90-214-141-182-181-140-214-91-238-32q-123 0-237 32t-214 90-182 141-140 181-91 214-32 238q0 27 10 50t27 40 41 28 50 10q38 0 67-9t56-24 52-31 55-31 67-23 87-10q80 0 150 30t122 82 82 122 30 150q0 49-9 86t-24 67-31 55-31 52-23 56-10 68q0 27 10 50t27 40 41 28 50 10zM512 640q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10zm384-256q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10zm512 384q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10zm128 256q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10zm-256 384q27 0 50 10t40 27 28 41 10 50q0 27-10 50t-27 40-41 28-50 10q-27 0-50-10t-40-27-28-41-10-50q0-27 10-50t27-40 41-28 50-10z"></path></svg></div>Appearance</div></div></div><div id="/onStartup" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="On startup" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1088 1024H960V0h128v1024zm212-724q138 44 252 128t196 197 127 248 45 279q0 124-32 238t-90 214-140 181-181 140-214 91-239 32q-124 0-238-32t-214-90-181-140-140-181-91-214-32-239q0-144 45-279t126-248 196-197 253-128l40 121q-119 39-217 111T403 700 295 911t-39 241q0 106 27 204t78 183 120 156 155 120 184 77 204 28q106 0 204-27t183-78 156-120 120-155 77-184 28-204q0-125-38-240t-109-212-168-168-217-111l40-121z"></path></svg></div>On startup</div></div></div><div id="/newTabPage" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="New tab page" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M0 0H16V13H0V0ZM15 12V1H1V12H15ZM12 3V4H4V3H12ZM5 7V10H2V7H5ZM4 9V8H3V9H4ZM6.5 10V7H9.5V10H6.5ZM7.5 8V9H8.5V8H7.5ZM11 10V7H14V10H11ZM12 8V9H13V8H12Z"></path></svg></div>New tab page</div></div></div><div id="/content" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Site permissions" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M2048 128v1064q-28-31-60-57t-68-50V640H128v1024h868q3 33 10 65t18 63H0V128h2048zm-128 128H128v256h1792V256zM256 1536V768h640v768H256zm128-128h384V896H384v512zm1024-512h-384V768h384v128zm-384 130h384q-122 41-216 126h-168v-126zm1014 462l-124 51q6 30 6 59 0 32-6 63l124 51-49 119-124-52q-17 25-38 47t-48 39l52 124-119 49-51-124q-30 6-61 6-15 0-30-3t-30-6l-52 127-119-49 52-125q-25-17-45-39t-38-47l-127 53-49-119 124-51q-6-30-6-59 0-31 6-63l-124-51 49-119 124 52q17-25 38-47t48-39l-52-124 119-49 51 124q30-6 59-6 31 0 63 6l51-124 119 49-52 124q25 17 47 38t39 48l124-52 49 119zm-438 303q40 0 75-15t61-41 41-61 15-74q0-39-15-74t-41-61-62-42-74-15q-39 0-74 15t-61 41-42 62-15 74q0 40 15 74t41 61 62 41 74 15z"></path></svg></div>Site permissions</div></div></div><div id="/defaultBrowser" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Default browser" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M0 128h2048v1024h-128V640H128v1024h896v128H0V128zm128 384h1792V256H128v256zm1344 1317l467-466 90 90-557 558-269-270 90-90 179 178z"></path></svg></div>Default browser</div></div></div><div id="/downloads" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Downloads" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M384 2048v-128h1152v128H384zm1197-979l-621 626-621-626 90-90 467 470V0h128v1449l467-470 90 90z"></path></svg></div>Downloads</div></div></div><div id="/familySafety" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Family safety" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1790 1717q98 48 162 135t81 196h-110q-11-57-41-106t-73-84-97-56-112-20q-59 0-112 20t-97 55-73 85-41 106h-110q16-108 80-195t163-136q-57-45-88-109t-32-136q0-45 12-87t36-79 57-66 74-49q-27-39-62-69t-76-53-86-33-93-12q-80 0-153 31t-127 91q24 65 24 134 0 92-41 173t-115 136q65 33 117 81t90 108 57 128 20 142H896q0-79-30-149t-82-122-123-83-149-30q-80 0-149 30t-122 82-83 123-30 149H0q0-73 20-141t57-128 89-108 118-82q-74-55-115-136t-41-173q0-79 30-149t82-122 122-83 150-30q85 0 161 36t132 100q26-25 56-45t63-38q-74-55-115-136t-41-173q0-79 30-149t82-122 122-83 150-30q79 0 149 30t122 82 83 123 30 149q0 92-41 173t-115 136q70 37 126 90t95 123q64 0 120 24t99 67 66 98 24 121q0 72-31 136t-89 109zM512 1536q53 0 99-20t82-55 55-81 20-100q0-53-20-99t-55-82-81-55-100-20q-53 0-99 20t-82 55-55 81-20 100q0 53 20 99t55 82 81 55 100 20zm384-896q0 53 20 99t55 82 81 55 100 20q53 0 99-20t82-55 55-81 20-100q0-53-20-99t-55-82-81-55-100-20q-53 0-99 20t-82 55-55 81-20 100zm704 630q-42 0-78 16t-64 43-44 64-16 79q0 42 16 78t43 64 64 44 79 16q42 0 78-16t64-43 44-64 16-79q0-42-16-78t-43-64-64-44-79-16z"></path></svg></div>Family safety</div></div></div><div id="/languages" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Languages" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M601 1152l295 886v10H765l-86-256H345l-86 256H128v-10l295-886h178zm36 512l-125-374-125 374h250zM893 512q3 65 3 128v64q0 32-2 64H768v128H523l10 64q5 32 14 64H418q-8-32-12-64t-9-64H188q20 36 46 68t57 60h-35l-45 90q-101-91-156-214T0 640q0-88 23-170t64-153 100-129T317 88t153-65T640 0q88 0 170 23t153 64 129 100 100 130 65 153 23 170q0 32-3 64t-10 64h-124q17-65 17-128t-17-128H893zM640 120q-19 0-34 16t-28 41-22 56-15 60-11 54-6 37h231q-2-11-6-35t-10-54-16-60-22-56-28-42-33-17zM387 768q-3-64-3-128 0-63 3-128H137q-17 65-17 128t17 128h250zm11-384q6-58 18-116t34-112q-83 33-150 91T188 384h210zm369 384q3-64 3-128 0-63-3-128H513q-3 65-3 128 0 64 3 128h254zm58-613q23 54 36 112t20 117h211q-45-78-113-137t-154-92zm566 734q0-30-1-61t-8-60q69 0 137 6 6 1 12 3t7 10q0 5-3 12t-5 12q-2 6-3 16t-2 21-1 22 0 17v13h296q42 0 83-1t84-2q7 0 13 3 3 5 3 10-1 17-2 35t-1 36v58q0 36 1 72t2 73v7q0 4-3 6-8 2-13 2h-25q-20 0-41 1-19 0-34-1t-17-3q-2-8-2-24t-1-36q0-33 1-68t1-52h-802v39q0 15 1 31t0 34q0 29-1 52t-3 26q-8 2-13 2H949q-11 0-13-3t-2-13q1-40 1-79t0-79v-58q0-29-1-58 0-5 2-11 8-2 13-2 42 1 83 2t84 1h275v-11zm639 553q2 8 2 13v96q0 4-2 12-8 2-13 2-40-1-79-2t-79-1h-321v33q0 52 1 104t3 104v4q0 24-9 48t-29 38q-14 10-39 15t-55 8-56 3-44 1h-19q-13 0-18-6-3-3-7-16t-6-18q-7-26-16-48t-24-46q34 4 68 5t68 2q24 0 36-7t13-34v-190h-319q-40 0-80 1t-80 2q-8 0-12-3-2-6-2-11v-96-7q0-4 3-7 6-2 11-2l80 2q40 1 80 1h319q-2-26-2-52t-6-53q20 2 39 3t40 4h3q1 0 4 1 35-25 67-53t64-57h-308q-42 0-83 1t-84 2q-8 0-12-3-2-6-2-11v-95q0-4 2-12 8-2 12-2 42 1 83 2t84 1h373q16 0 30-4t25-5q8 0 23 12t30 28 26 32 12 25q0 10-6 15t-15 10q-14 7-27 18t-25 21q-52 43-104 83t-110 78v11h321q40 0 79-1t79-2q7 0 13 3z"></path></svg></div>Languages</div></div></div><div id="/printing" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Printers" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1920 768q26 0 49 10t41 27 28 41 10 50v896h-512v256H512v-256H0V896q0-26 10-49t27-41 41-28 50-10h384V0h1024v768h384zm-1280 0h768V128H640v640zm768 640H640v512h768v-512zm512-512H128v768h384v-384h1024v384h384V896zM320 1024q26 0 45 19t19 45q0 26-19 45t-45 19q-26 0-45-19t-19-45q0-26 19-45t45-19z"></path></svg></div>Printers</div></div></div><div id="/system" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="System" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M2000 1397q11 11 20 28t15 37 9 39 4 35q0 25-10 48t-29 41-41 28-48 11H256q-25 0-48-10t-41-29-28-41-11-48q0-15 3-34t10-39 15-37 20-29l208-208V384h1408v805l208 208zM512 1152h1152V512H512v640zm1408 381q0-4-1-11t-4-15-5-15-6-10l-203-202H475l-203 202q-3 3-5 10t-5 14-4 15-2 12l3 3h1658l3-3z"></path></svg></div>System</div></div></div><div id="/reset" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Reset settings" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M5.86719 0.296875C5.0026 0.53125 4.21094 0.898438 3.49219 1.39844C2.77344 1.89323 2.15625 2.48177 1.64062 3.16406C1.11979 3.84115 0.716146 4.59375 0.429688 5.42188C0.143229 6.24479 0 7.10417 0 8C0 8.73438 0.0963542 9.44271 0.289062 10.125C0.476562 10.8073 0.744792 11.4453 1.09375 12.0391C1.4375 12.6328 1.85417 13.1745 2.34375 13.6641C2.82812 14.1484 3.36719 14.5651 3.96094 14.9141C4.55469 15.2578 5.19271 15.526 5.875 15.7188C6.55729 15.9062 7.26562 16 8 16C8.73438 16 9.44271 15.9062 10.125 15.7188C10.8073 15.526 11.4453 15.2578 12.0391 14.9141C12.6328 14.5651 13.1745 14.1484 13.6641 13.6641C14.1484 13.1745 14.5651 12.6328 14.9141 12.0391C15.2578 11.4453 15.526 10.8099 15.7188 10.1328C15.9062 9.45052 16 8.73958 16 8C16 7.27083 15.9036 6.5625 15.7109 5.875C15.5182 5.1875 15.2448 4.54167 14.8906 3.9375C14.5312 3.32812 14.0964 2.77604 13.5859 2.28125C13.0755 1.78125 12.5 1.35417 11.8594 1H14V0H10V4H11V1.67969C11.6094 1.97135 12.1615 2.33854 12.6562 2.78125C13.1458 3.21875 13.5651 3.71354 13.9141 4.26562C14.263 4.8125 14.5312 5.40365 14.7188 6.03906C14.9062 6.67448 15 7.32812 15 8C15 8.64062 14.9167 9.26042 14.75 9.85938C14.5833 10.4531 14.349 11.0104 14.0469 11.5312C13.7396 12.0469 13.3724 12.5182 12.9453 12.9453C12.5182 13.3724 12.0469 13.7396 11.5312 14.0469C11.0104 14.349 10.4531 14.5833 9.85938 14.75C9.26562 14.9167 8.64583 15 8 15C7.35938 15 6.74219 14.9167 6.14844 14.75C5.54948 14.5833 4.99219 14.349 4.47656 14.0469C3.95573 13.7396 3.48177 13.3724 3.05469 12.9453C2.6276 12.5182 2.26302 12.0469 1.96094 11.5312C1.65365 11.0104 1.41667 10.4531 1.25 9.85938C1.08333 9.26562 1 8.64583 1 8C1 7.21875 1.1276 6.46615 1.38281 5.74219C1.63281 5.01823 1.98438 4.35938 2.4375 3.76562C2.89062 3.17188 3.43229 2.65885 4.0625 2.22656C4.6875 1.78906 5.3776 1.46615 6.13281 1.25781L5.86719 0.296875Z"></path></svg></div>Reset settings</div></div></div><div id="/devices" role="treeitem" aria-selected="false" tabindex="-1" class="c01115"><div title="Phone and other devices" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1536 0q27 0 50 10t40 27 28 41 10 50v1792q0 27-10 50t-27 40-41 28-50 10H512q-27 0-50-10t-40-27-28-41-10-50V128q0-27 10-50t27-40 41-28 50-10h1024zm0 128H512v1792h1024V128zM896 1664h256v128H896v-128z"></path></svg></div>Phone and other devices</div></div></div><div id="/help" role="treeitem" aria-selected="true" tabindex="-1" class="c01115 c01124"><div title="About Microsoft Edge" class="c01118"><div class="c01119"><div aria-hidden="true" class="c01117"><svg class="c01116" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1865 1519q11 0 21 10t10 21q0 11-6 21t-13 19q-36 54-78 102t-90 92q-40 36-92 71t-111 63-119 46-115 18q-124 0-223-44t-169-121-107-182-38-224q0-61 16-119t44-113q35 102 106 182t163 137 197 85 209 30q95 0 185-19t176-62q8-4 17-8t17-5zM543 1411q0 92 17 179t54 167 91 149 130 125q-121-21-229-70t-201-120-168-163-127-196-81-221-29-238q0-67 30-123t79-99 108-74 118-48q100-30 209-30 53 0 107 8t107 23 102 40 91 58l-14 6q-28 11-52 23t-49 29q-65 45-118 111t-93 143-60 160-22 161zM1020 0q145 0 284 33t262 98 224 165 169 231q42 80 65 166t24 178q0 76-20 145t-58 127-94 103-124 76q-46 20-95 31t-99 11q-36 0-82-2t-94-11-90-24-72-42q-10-8-19-21t-9-28q0-13 13-30t30-42 31-59 14-81q0-96-36-178t-98-148-140-115-164-78q-144-48-298-48-112 0-221 26t-209 81q67-133 160-238t209-177T734 38t286-38z"></path></svg></div>About Microsoft Edge</div></div></div></div></div></div><button class="c0165 c0170" role="separator"></button></div><div class="c01130 c0127 c0149" data-grid-app="canvas" style="min-width: 300px;"><div role="main" class="c0116 c0117" aria-label="Settings"><div class="c01131"><div class="c01667"><div class="c01164 c01171"><div class="c01166"><header class="c01170" role="banner"><h2 class="c0191 c0196 c0182 c0187 c01154">About</h2></header></div></div><div class="c01677"><div class="c01674"><img class="c01675" srcset="edge://theme/current-channel-logo@1x 1x, edge://theme/current-channel-logo@2x 2x" alt="Edge logo"><span class="c01676">Microsoft Edge</span></div><div class="c01680 c01681"><div class="c01682"><svg class="c01689" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="16" height="16"><path d="M1024 0q141 0 272 36t244 104 207 160 161 207 103 245 37 272q0 141-36 272t-104 244-160 207-207 161-245 103-272 37q-141 0-272-36t-244-104-207-160-161-207-103-245-37-272q0-141 36-272t104-244 160-207 207-161T752 37t272-37zm603 685l-136-136-659 659-275-275-136 136 411 411 795-795z"></path></svg></div><div class="c01685"><span class="c01687">Microsoft Edge is up to date.</span><span class="c01688">Version 84.0.522.59 (Official build)  (64-bit)</span></div></div><div class="c01678"><p class="c01679">This browser is made possible by the <a target="_blank" href="https://www.chromium.org/" class="c01665">Chromium</a> open source project and other <a target="_blank" href="edge://credits/" class="c01665">open source software</a>.</p><div><p class="c01679">Microsoft Edge</p><p class="c01679">© 2020 Microsoft Corporation. All rights reserved.</p></div><p class="c01679"><a target="_blank" href="edge://terms/" class="c01665">Terms of use</a> - <a target="_blank" href="https://go.microsoft.com/fwlink/?LinkId=521839" class="c01665">Privacy statement</a> - <a target="_blank" href="https://go.microsoft.com/fwlink/?LinkID=530144" class="c01665">Microsoft services agreement</a></p></div></div></div></div></div></div></div></div></div><div id="announcement" style="top: 0px; position: fixed; opacity: 0;"><div role="status"></div><div role="alert"></div></div></div></div>
+  <div id="modal-root" style="z-index: 13;"></div>
+  <div id="dialog-root"></div>
+<script type="text/javascript" src="edge://settings/lib_react.chunk.js"></script><script type="text/javascript" src="edge://settings/lib_common.chunk.js"></script><script type="text/javascript" src="edge://settings/settings.bundle.js"></script><div></div>
 
 </body></html>
